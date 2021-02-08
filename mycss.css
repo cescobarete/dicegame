@@ -1,3 +1,22 @@
-body {
+body { 
+    background-color: lightgrey;
     text-align: center;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-shadow: 2px 2px blue;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    text-shadow: 2px 2px rgb(245, 38, 90);
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    text-shadow: 2px 2px rgb(40, 231, 104);
 }
