@@ -11,8 +11,14 @@
         <link rel="stylesheet" href="mycss.css">
         <script src="myjs.js"></script>
     </head>
-    <body>
-        <button type="button" onclick="RollDie()">Roll Die</button>
-        Roll Die: <input id="Dice" type="text" value="" size="5">
+    <body onload="myFunc()">
+        <script>
+        function myFunc(){
+            RollDie()
+            alert("Dice rolled")
+        }    
+        </script>
+        <button type="button" onclick="RollDie()">Roll Dice</button><br><br>
+        Roll: <input id="Dice" type="text" value="" size="5" disabled><br><br>
     </body>
 </html>
